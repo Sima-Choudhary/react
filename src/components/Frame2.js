@@ -1,8 +1,13 @@
 import React from 'react'
 import './Frame2.css'
+import Cards1 from './Cards1.js'
+import Group8 from '../images/Group8.png'
+import Group6 from '../images/Group6.png'
+import Group7 from '../images/Group7.png'
+
 export default function Frame2() {
   return (
-    <div className='container1'>
+    <div className='container2'>
         <div className='intro2'>
             <h1>Advantages Of The Institute</h1>
             <p>
@@ -12,16 +17,20 @@ export default function Frame2() {
             </p>
         </div>
         <div className='choices'>
-            <div>
-            <img src={require('../images/Group 11.png')} alt='img'  />
+          
+            <div className='card'>
+            <Cards1 icon={Group8}  title="Daily Analysis" description="Purus nibh ultrices velit in et imperdiet. Etiam luctus auctor at condimentum viverra."/>
             </div>
-            <div>
-            <img src={require('../images/Group 12.png')} alt='img'  />
+          
+            <div className='card'>
+            <Cards1  icon={Group6} title="Strategy And Planning" description="Purus nibh ultrices velit in et imperdiet. Etiam luctus auctor at condimentum viverra."/>
             </div>
-            <div>
-            <img src={require('../images/Group 10.png')} alt='img'  />
+          
+          
+            <div className='card'>
+            <Cards1 icon={Group7} title="Creative Solution" description="Purus nibh ultrices velit in et imperdiet. Etiam luctus auctor at condimentum viverra." />
             </div>
-        
+          
 
         </div>
       

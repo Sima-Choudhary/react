@@ -1,10 +1,11 @@
 import React from 'react'
 import './Frame1.css';
+import '../images/Group-5.png'
 export default function Frame1() {
   return (
     <div>
-        <div className='main-header'>
-            <div className='info'>
+        <div id='frame1'>
+            <div className='container1'>
             <div className='header'>
                 <nav>
                     <div className='Box1'>
@@ -29,32 +30,30 @@ export default function Frame1() {
                         </ul>
                     </div>
                 </nav>
-                <div className='intro'>
+                <div className='intro1'>
                     <div className=' description'>
                         <div>
-                            <h1 >Learning  For  The  Future</h1>
+                            <h1 >Learning Business For  The  Future</h1>
                             <p >NisiQuisque nunc  At Cras  Tristique.  Lectus  scelerisque  sed id  nisi  vitae venenatis.</p>
                         </div>
                         <div className='response'> 
                             <button type="button" id='register' >Register Now </button>
                             <img src={require('../images/Group-5.png')} alt='img'  />
                             
+                        </div> 
+                    </div>
+                    <div className='imagination'>
+                        <div className='rectangle1'>
+                        <img src={require('../images/Rectangle-4.png')} alt='img'  />
+                        </div>
+                        <div className='rectangle2'>
+                        <img src={require('../images/Rectangle-3.png')} alt='img'  />
                         </div>
                     </div>
                     
-                    
                 </div>
             </div>
-            <div className='imagination1'>
-                        <div className='rectangle1'>
-                        <img src={require('../images/Rectangle-3.png')} alt='img'  />
-                        </div>
-            </div>
-            <div className='imagination2'>
-                        <div className='rectangle2'>
-                        <img src={require('../images/Rectangle-4.png')} alt='img'  />
-                        </div>
-            </div>
+           
         </div>
       </div>
     </div>

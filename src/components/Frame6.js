@@ -5,7 +5,7 @@ export default function Frame6() {
     <div className='container7'>
     <div className='container4'>
       <div className="content5">
-        <h1>What          Our Clients say</h1>
+        <h1>What Our Clients say</h1>
         <p>Morbi ac sit vel nisl. Scelerisque viverra tempus tortor facilisis magna. 
             Ultricies suspendisse a libero lorem sodales eget.</p>
       </div>

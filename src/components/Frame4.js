@@ -2,7 +2,7 @@ import React from 'react'
 import './Frame4.css'
 export default function Frame4() {
   return (
-    <div className='container3'>
+    <div className='container4'>
         <div className='content3'>
             <h1>Our Popular Courses</h1>
             <p>
@@ -11,7 +11,9 @@ export default function Frame4() {
             </p>
         </div>
         <div className='content4'>
-            <img src={require('../images/Frame 8.png')} alt='img'/>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       
     </div>
