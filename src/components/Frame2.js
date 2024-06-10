@@ -16,7 +16,7 @@ export default function Frame2() {
              sit nibh nulla
             </p>
         </div>
-        <div className='choices'>
+        <div className='choices1'>
           
             <div className='card'>
             <Cards1 icon={Group8}  title="Daily Analysis" description="Purus nibh ultrices velit in et imperdiet. Etiam luctus auctor at condimentum viverra."/>

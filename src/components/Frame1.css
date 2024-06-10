@@ -115,15 +115,7 @@ a{
     padding-left: 5%;
     flex-wrap: wrap;
 }
-button{
-    border-radius: 30px !important;
-    width: 200px;
-    height: 70px;
-    flex-wrap: wrap;
-    border: 1px solid red  ;
 
-
-}
 .response{
     width: 500px;
     height: 70px;
@@ -139,6 +131,11 @@ button{
     font-size: 1.3rem;
     font-weight:600;
     flex-wrap: wrap;
+    border-radius: 30px;
+    width: 200px;
+    height: 70px;
+    flex-wrap: wrap;
+    border: 1px solid red  ;
     
 }
 
