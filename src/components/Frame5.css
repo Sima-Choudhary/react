@@ -7,45 +7,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border-top: 1px solid black;
    
-}
-
-.intro2{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .choices2{
     width: 100%;
     height: 100%;
     margin-top: 10%;
+    flex-basis: 70%;
     display: flex;
-    padding: 10%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-}
-
-.intro2 h1{
-    font-size: 3.3rem;
-    font-weight: 600;
-    padding: 3%;
-    margin-bottom: 20px;
-}
-
-.intro2 p{
-    width: 70%;
-    place-items: center;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    font-weight: 400;
-    margin-bottom: 20px;
 }
 
 
@@ -119,8 +93,6 @@
 .card3:hover::after {
     opacity: 1;
 }
-                  
-
 .prise{
     display: flex;
     flex-basis: 20%;
@@ -142,20 +114,12 @@ h4{
     font-size: 25px;
 }
 
-
-
-
-
+/* 
 .button4{
-height: 10px;
-width: 10px;
-color: white;
-border: 1px solid white;
-opacity: 0;
-}
-
-.button4::after{
-    height: 50px;
+position: absolute;
+left: 200;
+top:300px;
+height: 50px;
 width: 100px;
 border-radius: 40px;
 border:10px solid red;
@@ -164,9 +128,25 @@ background:red;
 justify-content: center;
 align-items: center;
 opacity: 0;
-z-index: -1;
-}
+transition: opacity 0.3s ease;
+pointer-events: none;
 
-.button4:hover::after{
+} */
+
+.button4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+.card:hover  .button4{
     opacity: 1;
 }

@@ -1,0 +1,102 @@
+#footer{
+    background:url('../images/Rectangle 1 (1).png');
+    background-repeat: no-repeat;
+    width: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+    
+}
+.container8{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding:0% 5%;
+  
+}
+.content6{
+    width: 100%;
+    flex-basis: 45%;
+    display: flex;
+    padding-left: 3%;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.content6 h1{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.content6 p{
+    width: 80%;
+    text-align: start;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.content7{
+    width: 100%;
+    flex-basis: 55%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.links ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.company ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.resourses ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    min-width: 250px;
+}
+
+.content7 ul li{
+    font-size: 1.1rem;
+    line-height: 3rem;
+    font-weight: 50;
+}
+.copy-write{
+    flex-basis: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:2px solid white;
+}
+
+.copy-write div{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copy-write div ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.copy-write ul li{
+    font-size: 1.1rem;
+    line-height: 3rem;
+    font-weight: 50;
+}

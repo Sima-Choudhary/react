@@ -10,7 +10,7 @@ import picture3 from '../images/picture3.jpg'
 export default function Frame4() {
   return (
     <div className='container4'>
-        <div className='content3'>
+        <div className='intro2'>
             <h1>Our Popular Courses</h1>
             <p>
             Morbi ac sit vel nisl. Scelerisque viverra tempus tortor facilisis magna.

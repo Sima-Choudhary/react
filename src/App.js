@@ -5,9 +5,9 @@ import Frame2 from './components/Frame2.js';
 import Frame3 from './components/Frame3.js';
 import Frame4 from './components/Frame4.js';
 import Frame5 from './components/Frame5.js';
-// import Frame6 from './components/Frame6.js';
-// import Frame7 from './components/Frame7.js';
-
+import Frame6 from './components/Frame6.js';
+import Frame7 from './components/Frame7.js';
+import Frame8 from './components/Frame8.js';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <Frame3  className='commom'/>
       <Frame4  className='commom'/>
       <Frame5  className='commom'/>
-      {/*<Frame6  className='commom'/>
-      <Frame7  className='commom'/>  */}
-      
+      <Frame6  className='commom'/>
+      <Frame7  className='commom'/>  
+      <Frame8/>
      </div>
   );
 }

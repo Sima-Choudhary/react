@@ -9,16 +9,6 @@
     justify-content: space-between;   
 }
 
-.content5{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 40%;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .choices1{
     margin: 5%;
@@ -29,20 +19,35 @@
     flex-flow: wrap;
 }
 
-.content5 h1{
-    font-size: 3rem;
-    font-weight: 400;
-    padding: 3%;
-    margin-bottom: 10px;
+
+.intro2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.content5 p{
-    width: 60%;
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    font-weight: 400;
+
+.intro2 h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 3%;
 }
+
+.intro2 p{
+    width: 70%;
+    place-items: center;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: rgb(78, 77, 77);
+    text-align: center;
+}
+
+
         /* styling card1 */
 
 .card {
