@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    padding:0% 5%;
+    padding-left: 5%;
     flex-wrap: wrap;
 }
 .content6{
@@ -102,7 +102,7 @@
     min-width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     align-items: start;
 }
 
@@ -112,9 +112,35 @@
 }
 
 /*   Adding response*/
+@media only screen and (max-width:500px){
+    
+    .content6 h1{
+        padding-left: 5%;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    .content6 p{
+        width: 100%;
+        text-align: start;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .content7  h4{
+        font-size: 0.5rem;
+    }
+    .content7{
+        padding-left: 0%;
+    }
+    .coontent7 ul li{
+        font-size: 0.16rem;
+    }
+    .copy-write{
+        padding: 0%;
+    }
+}
 
-
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:950px){
     .container8{
         flex-direction: column;
     }
@@ -127,11 +153,26 @@
     .content7{
         padding-left: 10%;
     }
+    .content7 h4{
+        font-size: 1.2rem;
+    }
     .content7 ul li{
         line-height: 1.5rem;
     }
     .copy-write{
         min-height: 30px;
         flex-direction: column;
+    }
+    .content6 h1{
+        padding-left: 5%;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    .content6 p{
+        width: 100%;
+        text-align: start;
+        font-size: 1rem;
+        line-height: 1rem;
     }
 }

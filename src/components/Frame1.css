@@ -34,6 +34,7 @@ nav{
     width: 95%;
     padding: 1%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: 20%;
@@ -49,14 +50,25 @@ nav{
 .Box2{
     flex-basis: 40%;
     flex-wrap: wrap;
-    padding-right: 5%;
+    min-width: 400px;
+    display: flex;
 }
+.Box2 ul{
+    width: 100%;
+    display: flex;
+}
+
 .Box3{
     flex-basis: 20%;
     align-items: end;
     flex-wrap: wrap;
     padding-right: 5%;
 }
+.Box3 ul{
+    width: 100%;
+    display: flex;
+}
+
 
 
 ul{
@@ -123,6 +135,7 @@ a{
     margin: 5%;
     margin-bottom: 40%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;  
 }
@@ -135,7 +148,6 @@ a{
     border-radius: 30px;
     width: 200px;
     height: 70px;
-    flex-wrap: wrap;
     border: 1px solid red  ;
     
 }
@@ -170,9 +182,40 @@ overflow: hidden;
     
 
 }
+                /* Adding some responsiveness */
+
+@media only screen and (max-width:550px){  
+    .description{
+        padding:0% ;
+        max-width: 400px;
+    }
+   
+    .description h1{
+        font-size:2.6rem;
+        flex-wrap: wrap;
+        padding: 5%;
+    }
+    
+    .description p{
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+        padding-left: 5%;
+        flex-wrap: wrap;
+    }
+    
+    .response{
+        flex-direction: column;
+    }
+     
+  }
 
 
-@media only screen and (max-width:1000px){    
+@media only screen and (max-width:950px){    
+nav{
+    flex-direction: column;
+
+}
+    
 .rectangle1{
     
     width: 1rem;
@@ -193,3 +236,4 @@ overflow: hidden;
     min-height: 800px;
 }
 }  
+

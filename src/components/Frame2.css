@@ -16,7 +16,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-basis: 40%;
-    flex-flow: wrap;
+    flex-wrap: wrap;
 }
 
 
@@ -138,6 +138,6 @@
         max-height: 310px;
     }
     .card::after{
-        top: -10px; 
+        top: -30px; 
     }
 }
