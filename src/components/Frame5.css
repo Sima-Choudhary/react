@@ -150,3 +150,19 @@ pointer-events: none;
 .card:hover  .button4{
     opacity: 1;
 }
+
+
+/*  Adding responsiveness*/
+
+@media only screen and (max-width:1000px){
+    .choices2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card3{
+
+        min-width: 300px;
+        max-height: 800px;
+    }
+}

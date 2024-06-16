@@ -2,25 +2,29 @@
     background:url('../images/Rectangle 1 (1).png');
     background-repeat: no-repeat;
     width: 100%;
-    width:100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
+    flex-wrap: wrap;
     color: white;
    
     
 }
 .container8{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     padding:0% 5%;
-  
+    flex-wrap: wrap;
 }
 .content6{
     width: 100%;
     flex-basis: 45%;
     display: flex;
-    padding-left: 3%;
+    padding-left: 5%;
     flex-direction: column;
     justify-content: space-around;
 
@@ -77,26 +81,57 @@
 }
 .copy-write{
     flex-basis: 5%;
+    width:90%;
+    padding : 0% 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-top:2px solid white;
+    flex-wrap: wrap;
 }
 
 .copy-write div{
-    flex-basis: 50%;
+    flex-basis: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .copy-write div ul{
+    min-width: 400px;
     display: flex;
     flex-direction: row;
+    justify-content: end;
+    align-items: start;
 }
 
 .copy-write ul li{
-    font-size: 1.1rem;
-    line-height: 3rem;
+    font-size: 1rem;
     font-weight: 50;
+}
+
+/*   Adding response*/
+
+
+@media only screen and (max-width:1000px){
+    .container8{
+        flex-direction: column;
+    }
+    .container7{
+        flex-direction: column;
+    }
+    .content6{
+        padding-left: 20%;
+    }
+    .content7{
+        padding-left: 10%;
+    }
+    .content7 ul li{
+        line-height: 1.5rem;
+    }
+    .copy-write{
+        min-height: 30px;
+        flex-direction: column;
+    }
 }

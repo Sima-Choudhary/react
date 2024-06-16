@@ -91,6 +91,7 @@
     font-size: 1.1rem;
     text-align: center;
     line-height: 1.2rem;
+    color: grey;
     flex-wrap: wrap;
     flex-basis: 10%;
     padding: 5%;
@@ -118,3 +119,25 @@
     opacity: 1;
 }
   
+
+
+@media only screen and (max-width:900px){
+    
+    .intro2 p{
+        width: 90%;
+        padding-bottom: 6%;
+    }
+    .choices1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+
+        min-width: 300px;
+        max-height: 310px;
+    }
+    .card::after{
+        top: -10px; 
+    }
+}

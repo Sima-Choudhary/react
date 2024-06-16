@@ -14,7 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     padding: 5%;
     width: 60%;
     margin: 8%;
@@ -56,3 +55,12 @@
     cursor: pointer;
     margin: 10px;
 }
+
+@media screen  and (max-width:900px){
+    .Box{
+        max-width: 500px;
+        max-height: 400px;
+    }
+
+}
+
