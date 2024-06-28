@@ -17,7 +17,9 @@ export default function Frame1() {
                             <li><a href='/'>Gallery</a></li>
                             <li><a href='/'>Students</a></li>
                             <li><a href='/'>course</a></li>
+                            {/* <i class="fa-solid fa-circle-xmark" onclick="closemenu()" aria-hidden="true"></i> */}
                         </ul>
+                        {/* <i class="fa-solid fa-bars" onclick="openmenu()" aria-hidden="true"></i> */}
                     </div>
                     <div className='Box3'>
                         <ul>
@@ -29,6 +31,7 @@ export default function Frame1() {
                                 </a></li>
                         </ul>
                     </div>
+                    
                 </nav>
                 <div className='intro1'>
                     <div className=' description'>

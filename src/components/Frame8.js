@@ -8,7 +8,13 @@ export default function Frame7() {
         <h1>Gyan Deep Computer Education</h1>
         <p>Morbi ac sit vel nisl. Scelerisque viverra tempus tortor facilisis magna.
              Ultricies suspendisse a libero lorem sodales eget.</p>
-        <div></div>
+             <div class="social-icons">
+                <a href="/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="/"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="/"><i class="fa-brands fa-github"></i></a>
+            </div>
       </div>
       <div className='content7'>
         <div className='links'>

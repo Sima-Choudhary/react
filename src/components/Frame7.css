@@ -61,8 +61,19 @@
         max-height: 300px;
     }
     .Box h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
+    .Box p{
+        line-height: 1.5rem;
+        font-size: 1.5rem;
+        
+    }
+    #button{
+        width: 150px;
+        height: 60px;
+    
+    }
+
 
 }
 
@@ -75,9 +86,40 @@
         font-size: 2.1rem;
     }
     .Box p{
+        line-height: 1.5rem;
         font-size: 1.3rem;
-        padding: 0%;
+    
+    }
+    #button{
+        width: 150px;
+        height: 50px;
+    
     }
 
+
 }
+
+@media screen  and (max-width:400px){
+    .Box{
+        max-width: 350px;
+        max-height: 300px;
+    }
+    .Box h1{
+        font-size: 2rem;
+    }
+    .Box p{
+        font-size: 1.1rem;
+        line-height: 1rem;
+        
+    }
+    
+    #button{
+        width: 150px;
+        height: 40px;
+    
+    }
+
+
+}
+
 
